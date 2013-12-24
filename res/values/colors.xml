@@ -39,4 +39,49 @@
 
     <color name="button_text_color">#777777</color>
     <color name="button_text_disabled_color">#cccccc</color>
+    <color name="notification_template_icon_low_bg">#0cffffff</color>
+
+    <!-- Make sure to also update LetterTileProvider#NUM_OF_TILE_COLORS when adding or removing colors -->
+    <array name="letter_tile_colors">
+        <item>#f16364</item>
+        <item>#f58559</item>
+        <item>#f9a43e</item>
+        <item>#e4c62e</item>
+        <item>#67bf74</item>
+        <item>#59a2be</item>
+        <item>#2093cd</item>
+        <item>#ad62a7</item>
+    </array>
+    <color name="letter_tile_default_color">#d66161</color>
+
+    <color name="letter_tile_font_color">#ffffff</color>
+
+    <color name="tile_divider_color">#ffffff</color>
+
+    <!-- The color of the section name text in the teaser -->
+    <color name="teaser_main_text">@color/dark_gray_text_color</color>
+
+    <!-- swipe to refresh text color, this matches the color in
+        progressbar_solid_holo.png -->
+    <color name="swipe_to_refresh_text_color">#0099cc</color>
+
+    <!-- The background color of the message header -->
+    <color name="message_header_background_color">@android:color/white</color>
+    <color name="message_border_gradient_color">#ebebeb</color>
+
+    <!-- The color of the icon background in the teaser -->
+    <color name="folder_teaser_icon_background">#eeeeee</color>
+    <!-- The color of the senders text in the teaser -->
+    <color name="folder_teaser_senders_text">#58585b</color>
+    <!-- The color of the count text in the teaser -->
+    <color name="folder_teaser_count_text">@android:color/black</color>
+
+    <!-- colors from layouts -->
+    <color name="white_bg">#ffffff</color>
+    <color name="gray_bg">#aaaaaa</color>
+    <color name="gray_text">#555555</color>
+    <color name="black_text">#000000</color>
+    <color name="attachment_title">#333333</color>
+    <color name="attachment_subtitle">#aaaaaa</color>
+    <color name="quoted_text_bg">#babebe</color>
 </resources>
